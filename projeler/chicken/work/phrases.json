@@ -1,0 +1,184 @@
+[
+ {
+  "text": "Why do the rich get richer and the poor get poorer?",
+  "s": 0.0,
+  "e": 2.34,
+  "w0": 0,
+  "w1": 10
+ },
+ {
+  "text": "Picture a starving village where everyone wakes up with the exact same single chicken.",
+  "s": 2.9,
+  "e": 6.86,
+  "w0": 11,
+  "w1": 24
+ },
+ {
+  "text": "Same starting line,",
+  "s": 7.46,
+  "e": 8.5,
+  "w0": 25,
+  "w1": 27
+ },
+ {
+  "text": "same asset—so how do three totally different futures happen from one single hen?",
+  "s": 8.84,
+  "e": 13.02,
+  "w0": 28,
+  "w1": 40
+ },
+ {
+  "text": "Group one eats the chicken that night—great soup,",
+  "s": 13.68,
+  "e": 16.38,
+  "w0": 41,
+  "w1": 48
+ },
+ {
+  "text": "zero tomorrow.",
+  "s": 16.82,
+  "e": 17.66,
+  "w0": 49,
+  "w1": 50
+ },
+ {
+  "text": "Group two eats one egg a day:",
+  "s": 18.5,
+  "e": 20.08,
+  "w0": 51,
+  "w1": 57
+ },
+ {
+  "text": "never starving,",
+  "s": 20.4,
+  "e": 21.02,
+  "w0": 58,
+  "w1": 59
+ },
+ {
+  "text": "never growing.",
+  "s": 21.46,
+  "e": 22.0,
+  "w0": 60,
+  "w1": 61
+ },
+ {
+  "text": "Group three gathers birds into a shared coop,",
+  "s": 22.64,
+  "e": 25.0,
+  "w0": 62,
+  "w1": 69
+ },
+ {
+  "text": "returns part of the eggs to group two,",
+  "s": 25.3,
+  "e": 27.42,
+  "w0": 70,
+  "w1": 77
+ },
+ {
+  "text": "and incubates the rest.",
+  "s": 27.42,
+  "e": 28.62,
+  "w0": 78,
+  "w1": 81
+ },
+ {
+  "text": "Chicks hatch in 21 days,",
+  "s": 29.18,
+  "e": 30.76,
+  "w0": 82,
+  "w1": 86
+ },
+ {
+  "text": "lay eggs in five to six months,",
+  "s": 31.12,
+  "e": 32.76,
+  "w0": 87,
+  "w1": 93
+ },
+ {
+  "text": "and extra eggs buy feed.",
+  "s": 33.1,
+  "e": 34.52,
+  "w0": 94,
+  "w1": 98
+ },
+ {
+  "text": "One coop becomes two,",
+  "s": 35.16,
+  "e": 36.44,
+  "w0": 99,
+  "w1": 102
+ },
+ {
+  "text": "four,",
+  "s": 36.44,
+  "e": 36.977,
+  "w0": 103,
+  "w1": 103
+ },
+ {
+  "text": "eight—snowballing fast.",
+  "s": 36.977,
+  "e": 38.66,
+  "w0": 104,
+  "w1": 105
+ },
+ {
+  "text": "Group one protests unfairness in the square,",
+  "s": 39.5,
+  "e": 41.68,
+  "w0": 106,
+  "w1": 112
+ },
+ {
+  "text": "until group three's booming coops hire them for three eggs a day.",
+  "s": 41.68,
+  "e": 45.08,
+  "w0": 113,
+  "w1": 124
+ },
+ {
+  "text": "Same start,",
+  "s": 45.72,
+  "e": 46.32,
+  "w0": 125,
+  "w1": 126
+ },
+ {
+  "text": "three outcomes.",
+  "s": 46.8,
+  "e": 47.46,
+  "w0": 127,
+  "w1": 128
+ },
+ {
+  "text": "Are you eating the hen,",
+  "s": 48.36,
+  "e": 49.28,
+  "w0": 129,
+  "w1": 133
+ },
+ {
+  "text": "living egg-to-egg,",
+  "s": 49.6,
+  "e": 50.56,
+  "w0": 134,
+  "w1": 135
+ },
+ {
+  "text": "or incubating?",
+  "s": 50.56,
+  "e": 51.28,
+  "w0": 136,
+  "w1": 137
+ },
+ {
+  "text": "Tell me in the comments how you'd finish this story.",
+  "s": 51.9,
+  "e": 54.12,
+  "w0": 138,
+  "w1": 147
+ }
+]

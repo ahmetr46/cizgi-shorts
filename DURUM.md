@@ -1,6 +1,6 @@
 # Proje Durumu — cizgi-short
 
-> Son güncelleme: 2026-11-24 (bulut testi)
+> Son güncelleme: 2026-11-24 (video 2: tavuk)
 > Bu dosya her adımda güncellenir. Yeni oturumda Claude önce bunu okur.
 
 ## Hedef
@@ -30,6 +30,11 @@ Dil: **İngilizce** (kullanıcı İngilizce üretim istedi).
   - Kullanıcı sordu: "İngilizce senaryolarımla video üreteceksin, doğru mu?" → Evet: kullanıcı İngilizce senaryo verir → Ryan sesi → altyazı → render → `teslim/<proje>.mp4`.
   - 2026-11-24: Bulut düzeltmeleri için PR açıldı: https://github.com/ahmetr46/cizgi-shorts/pull/1 — kullanıcı GitHub'da "Merge" edecek (yeni oturumlar main'den başladığı için gerekli).
   - 2026-11-24: Kullanıcı kararı: **dal/PR yok, her şey doğrudan main'e.** Proje tamam; artık sadece senaryo → video üretimi. CLAUDE.md'ye kural yazıldı. PR #1 yerine dal doğrudan main'e gönderildi.
+- [~] 2026-11-24: **Video 2 (tavuk / "rich get richer")** — kullanıcı İngilizce senaryo verdi (148 kelime). Proje: `projeler/chicken/`.
+  - Ses: edge-tts Ryan → cümle arası boşluklar ~0,6 sn'ye indirildi → `work/voice.wav` 55,2 sn. Zamanlama tamam (26 parça, 1645 kare). Em-dash'li kelimeler altyazı için bölündü.
+  - 21 çekim (`work/PLAN.md`); tavuk/civciv/yumurta/kümes 3D primitiflerle kodlandı; `engine/cast.js`'e hen/egg/basket/bowl el eşyaları eklendi (sadece bu projede).
+  - Önizleme kullanıcıya gönderildi; ses miksi tamam (mischief 108 bpm, -16 dB). Tam render bulutta başladı (~2,3 sn/kare, ~1 saat).
+  - Bitince: `finish.py` → `teslim/chicken.mp4` → main'e push → indirme linki.
 - [ ] **Sıradaki:** kullanıcı İngilizce senaryo gönderecek → video üret → `teslim/` → main; sonra bulutta yeni senaryodan tam video denemesi (bkz. Açık sorular 2); ayrıca kullanıcı videoyu izleyip geri bildirim verecek (çekim/altyazı/müzik değişikliği) → sonra listeden sıradaki fikir
 
 ## Açık sorular (kullanıcıya)
