@@ -25,7 +25,7 @@ Dil: **İngilizce** (kullanıcı İngilizce üretim istedi).
 
 ## Açık sorular (kullanıcıya)
 1. (yok — ses seçildi)
-2. 2026-11-24: Kullanıcı "yayına alıp her yerden sadece senaryo girerek video üretme" sordu. Seçenekler sunuldu: (A) claude.ai/code + GitHub repo, (B) Claude API'li otomatik web servisi, (C) PC'ye uzaktan erişim. Karar bekleniyor.
+2. 2026-11-24: Kullanıcı "yayına alıp her yerden sadece senaryo girerek video üretme" sordu. Seçenekler sunuldu: (A) claude.ai/code + GitHub repo, (B) Claude API'li otomatik web servisi, (C) PC'ye uzaktan erişim. **A seçildi.** 2026-11-24: yerel git reposu kuruldu (main, ilk commit 49a9d74, ~27 MB; frames/.remotion/mp4/ses-deneme .gitignore'da). Sıradaki: kullanıcı GitHub'da özel boş repo açıp adresini verecek → push → bulut kurulum betiği (Chromium, ffmpeg, faster-whisper, edge-tts) → claude.ai/code'da deneme.
 
 ## 10 fikir (özet)
 1. Galata'dan uçan adam, padişah sürgün etti (rivayet)
