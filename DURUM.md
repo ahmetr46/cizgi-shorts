@@ -25,7 +25,7 @@ Dil: **İngilizce** (kullanıcı İngilizce üretim istedi).
 
 ## Açık sorular (kullanıcıya)
 1. (yok — ses seçildi)
-2. 2026-11-24: Kullanıcı "yayına alıp her yerden sadece senaryo girerek video üretme" sordu. Seçenekler sunuldu: (A) claude.ai/code + GitHub repo, (B) Claude API'li otomatik web servisi, (C) PC'ye uzaktan erişim. **A seçildi.** 2026-11-24: yerel git reposu kuruldu (main, ilk commit 49a9d74, ~27 MB; frames/.remotion/mp4/ses-deneme .gitignore'da). 2026-11-24: GitHub'a gönderildi → https://github.com/ahmetr46/cizgi-shorts (commit yazarı ahmetr46 <kingby30@gmail.com>). `bulut-kurulum.sh` + SessionStart hook + `teslim/` klasörü eklendi. Sıradaki: kullanıcı claude.ai/code'da repoyu bağlayıp (ağ erişimi: Full) ilk bulut oturumunu açacak, kurulum ve kısa bir test yapılacak.
+2. 2026-11-24: Kullanıcı "yayına alıp her yerden sadece senaryo girerek video üretme" sordu. Seçenekler sunuldu: (A) claude.ai/code + GitHub repo, (B) Claude API'li otomatik web servisi, (C) PC'ye uzaktan erişim. **A seçildi.** 2026-11-24: yerel git reposu kuruldu (main, ilk commit 49a9d74, ~27 MB; frames/.remotion/mp4/ses-deneme .gitignore'da). 2026-11-24: GitHub'a gönderildi → https://github.com/ahmetr46/cizgi-shorts (commit yazarı ahmetr46 <kingby30@gmail.com>). `bulut-kurulum.sh` + SessionStart hook + `teslim/` klasörü eklendi. 2026-11-24: kullanıcı Claude'u GitHub'a bağladı. Sıradaki: claude.ai/code'da repoyu seçip (ağ erişimi: Full) ilk bulut oturumunu açacak, kurulum ve kısa bir test yapılacak.
 
 ## 10 fikir (özet)
 1. Galata'dan uçan adam, padişah sürgün etti (rivayet)
