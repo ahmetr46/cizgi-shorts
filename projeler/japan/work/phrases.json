@@ -1,0 +1,289 @@
+[
+ {
+  "text": "Even if your boss in Japan wants to fire you,",
+  "s": 0.0,
+  "e": 2.56,
+  "w0": 0,
+  "w1": 9
+ },
+ {
+  "text": "chances are they can't.",
+  "s": 2.84,
+  "e": 4.06,
+  "w0": 10,
+  "w1": 13
+ },
+ {
+  "text": "Mr.",
+  "s": 4.34,
+  "e": 4.56,
+  "w0": 14,
+  "w1": 14
+ },
+ {
+  "text": "Tanaka has been at the same company for twenty years,",
+  "s": 4.62,
+  "e": 7.04,
+  "w0": 15,
+  "w1": 24
+ },
+ {
+  "text": "and one morning the boss decides Tanaka has to go.",
+  "s": 7.32,
+  "e": 9.94,
+  "w0": 25,
+  "w1": 34
+ },
+ {
+  "text": "But Japanese labor law is clear:",
+  "s": 10.22,
+  "e": 11.92,
+  "w0": 35,
+  "w1": 40
+ },
+ {
+  "text": "without a just and reasonable cause,",
+  "s": 12.22,
+  "e": 13.9,
+  "w0": 41,
+  "w1": 46
+ },
+ {
+  "text": "firing is invalid.",
+  "s": 14.38,
+  "e": 15.28,
+  "w0": 47,
+  "w1": 49
+ },
+ {
+  "text": "Calling someone unproductive isn't enough most of the time.",
+  "s": 15.82,
+  "e": 18.5,
+  "w0": 50,
+  "w1": 58
+ },
+ {
+  "text": "Even saying the company is downsizing isn't enough.",
+  "s": 18.78,
+  "e": 21.38,
+  "w0": 59,
+  "w1": 66
+ },
+ {
+  "text": "So what does the company do?",
+  "s": 21.72,
+  "e": 23.04,
+  "w0": 67,
+  "w1": 72
+ },
+ {
+  "text": "Instead of firing Tanaka,",
+  "s": 23.42,
+  "e": 24.68,
+  "w0": 73,
+  "w1": 76
+ },
+ {
+  "text": "they bore him out.",
+  "s": 24.94,
+  "e": 25.7,
+  "w0": 77,
+  "w1": 80
+ },
+ {
+  "text": "They put him in a completely empty room.",
+  "s": 26.0,
+  "e": 27.82,
+  "w0": 81,
+  "w1": 88
+ },
+ {
+  "text": "There's a desk and a chair.",
+  "s": 27.82,
+  "e": 29.32,
+  "w0": 89,
+  "w1": 94
+ },
+ {
+  "text": "No computer,",
+  "s": 29.64,
+  "e": 30.28,
+  "w0": 95,
+  "w1": 96
+ },
+ {
+  "text": "no phone,",
+  "s": 30.66,
+  "e": 31.24,
+  "w0": 97,
+  "w1": 98
+ },
+ {
+  "text": "no work.",
+  "s": 31.56,
+  "e": 32.1,
+  "w0": 99,
+  "w1": 100
+ },
+ {
+  "text": "The Japanese call this oidashi beya.",
+  "s": 32.56,
+  "e": 34.68,
+  "w0": 101,
+  "w1": 106
+ },
+ {
+  "text": "Basically,",
+  "s": 34.68,
+  "e": 35.14,
+  "w0": 107,
+  "w1": 107
+ },
+ {
+  "text": "a firing room.",
+  "s": 35.46,
+  "e": 36.46,
+  "w0": 108,
+  "w1": 110
+ },
+ {
+  "text": "From nine to five,",
+  "s": 36.8,
+  "e": 38.06,
+  "w0": 111,
+  "w1": 114
+ },
+ {
+  "text": "Tanaka stares at the wall.",
+  "s": 38.06,
+  "e": 39.4,
+  "w0": 115,
+  "w1": 119
+ },
+ {
+  "text": "Stares out the window,",
+  "s": 39.74,
+  "e": 40.64,
+  "w0": 120,
+  "w1": 123
+ },
+ {
+  "text": "counts the hours.",
+  "s": 41.0,
+  "e": 41.74,
+  "w0": 124,
+  "w1": 126
+ },
+ {
+  "text": "The goal is obvious:",
+  "s": 42.18,
+  "e": 43.08,
+  "w0": 127,
+  "w1": 130
+ },
+ {
+  "text": "make him bored and ashamed so he resigns on his own.",
+  "s": 43.46,
+  "e": 46.1,
+  "w0": 131,
+  "w1": 141
+ },
+ {
+  "text": "But there's another side to it.",
+  "s": 46.38,
+  "e": 47.64,
+  "w0": 142,
+  "w1": 147
+ },
+ {
+  "text": "In Japan,",
+  "s": 47.98,
+  "e": 48.42,
+  "w0": 148,
+  "w1": 149
+ },
+ {
+  "text": "resigning isn't easy either.",
+  "s": 48.78,
+  "e": 50.12,
+  "w0": 150,
+  "w1": 153
+ },
+ {
+  "text": "The boss tears up the resignation letter.",
+  "s": 50.48,
+  "e": 52.32,
+  "w0": 154,
+  "w1": 160
+ },
+ {
+  "text": "\"What will the team do if you leave?\" Because of that,",
+  "s": 52.7,
+  "e": 55.04,
+  "w0": 161,
+  "w1": 171
+ },
+ {
+  "text": "people now pay to have someone resign for them.",
+  "s": 55.32,
+  "e": 57.44,
+  "w0": 172,
+  "w1": 180
+ },
+ {
+  "text": "You hire an agency,",
+  "s": 57.44,
+  "e": 58.72,
+  "w0": 181,
+  "w1": 184
+ },
+ {
+  "text": "they call your boss,",
+  "s": 59.06,
+  "e": 59.86,
+  "w0": 185,
+  "w1": 188
+ },
+ {
+  "text": "and the best part is,",
+  "s": 60.22,
+  "e": 61.3,
+  "w0": 189,
+  "w1": 193
+ },
+ {
+  "text": "in twenty twenty-four,",
+  "s": 61.52,
+  "e": 62.88,
+  "w0": 194,
+  "w1": 196
+ },
+ {
+  "text": "an employee at a resignation agency wanted to quit.",
+  "s": 62.88,
+  "e": 65.54,
+  "w0": 197,
+  "w1": 205
+ },
+ {
+  "text": "Guess what they did?",
+  "s": 65.96,
+  "e": 66.72,
+  "w0": 206,
+  "w1": 209
+ },
+ {
+  "text": "They hired another resignation agency.",
+  "s": 67.04,
+  "e": 69.08,
+  "w0": 210,
+  "w1": 214
+ },
+ {
+  "text": "Yeah.",
+  "s": 69.42,
+  "e": 69.66,
+  "w0": 215,
+  "w1": 215
+ }
+]
