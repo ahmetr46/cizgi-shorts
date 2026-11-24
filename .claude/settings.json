@@ -24,6 +24,15 @@
             "timeout": 10
           }
         ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/bulut-kurulum.sh\"",
+            "timeout": 900
+          }
+        ]
       }
     ]
   }

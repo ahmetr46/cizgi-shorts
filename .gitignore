@@ -11,3 +11,5 @@ ses-deneme/
 # Python
 __pycache__/
 *.pyc
+# Bulutta üretilen bitmiş videolar buradan GitHub'a gönderilir (indirmek için)
+!teslim/*.mp4
