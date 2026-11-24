@@ -26,6 +26,8 @@ Dil: **İngilizce** (kullanıcı İngilizce üretim istedi).
   - edge-tts ilk denemede engellendi → yeni kişisel bulut ortamı **`cizgi-shorts`** oluşturuldu (izinli: speech.platform.bing.com). edge-tts'e `--proxy "$HTTPS_PROXY"` vermek gerekiyor (CLAUDE.md güncellendi).
   - Test: `teslim/test_ses.mp3` (Ryan, 2,93 sn) + `teslim/test.mp4` (ketçap 0–89. kare, 1080x1920, 3 sn). Render **~2,3 sn/kare** (CPU/SwiftShader, 4 çekirdek) → 33 sn'lik video (~1000 kare) ≈ 38–40 dk.
   - Not: test videosundaki altyazı orijinal senaryodan (test sesiyle eşleşmiyor), sadece motor testi.
+  - 2026-11-24: Altyazı zamanlaması (faster-whisper `small`) da bulutta test edildi: Hugging Face adresleri `cizgi-shorts` ortamına eklendi, `av==15.1.0` kurulum betiğine eklendi, `bulut-kurulum.sh` hazır Chromium varsa indirmeyi atlıyor. Kurulum baştan sona hatasız.
+  - Kullanıcı sordu: "İngilizce senaryolarımla video üreteceksin, doğru mu?" → Evet: kullanıcı İngilizce senaryo verir → Ryan sesi → altyazı → render → `teslim/<proje>.mp4`.
 - [ ] **Sıradaki:** kullanıcı test MP4'ü indirip bakacak; sonra bulutta yeni senaryodan tam video denemesi (bkz. Açık sorular 2); ayrıca kullanıcı videoyu izleyip geri bildirim verecek (çekim/altyazı/müzik değişikliği) → sonra listeden sıradaki fikir
 
 ## Açık sorular (kullanıcıya)
