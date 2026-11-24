@@ -21,11 +21,11 @@ Dil: **İngilizce** (kullanıcı İngilizce üretim istedi).
 - [x] 2026-11-23: **Video 1 bitti** → `projeler/ketchup/out/Ketchup_Was_Medicine.mp4` (33,1 sn, 1080x1920, -14 LUFS, donma/siyah kare yok)
   - Proje: `projeler/ketchup/` (story.js, sound.json, work/PLAN.md, out/qa_sheet.jpg). 12 çekim: eczane → sokak → gazete → satıcı → hap kutusu → rakip tezgâhlar → hapın içi → laxative → 1850 → modern patates
   - Bilgi doğrulandı (web): Bennett 1834 iddiası, tarifler, hap furyası, müshil skandalı, ~1850 çöküş
-- [ ] **Sıradaki:** kullanıcı videoyu izleyip geri bildirim verecek (çekim/altyazı/müzik değişikliği) → sonra listeden sıradaki fikir
+- [ ] **Sıradaki:** claude.ai/code bulut denemesi (bkz. Açık sorular 2); ayrıca kullanıcı videoyu izleyip geri bildirim verecek (çekim/altyazı/müzik değişikliği) → sonra listeden sıradaki fikir
 
 ## Açık sorular (kullanıcıya)
 1. (yok — ses seçildi)
-2. 2026-11-24: Kullanıcı "yayına alıp her yerden sadece senaryo girerek video üretme" sordu. Seçenekler sunuldu: (A) claude.ai/code + GitHub repo, (B) Claude API'li otomatik web servisi, (C) PC'ye uzaktan erişim. **A seçildi.** 2026-11-24: yerel git reposu kuruldu (main, ilk commit 49a9d74, ~27 MB; frames/.remotion/mp4/ses-deneme .gitignore'da). Sıradaki: kullanıcı GitHub'da özel boş repo açıp adresini verecek → push → bulut kurulum betiği (Chromium, ffmpeg, faster-whisper, edge-tts) → claude.ai/code'da deneme.
+2. 2026-11-24: Kullanıcı "yayına alıp her yerden sadece senaryo girerek video üretme" sordu. Seçenekler sunuldu: (A) claude.ai/code + GitHub repo, (B) Claude API'li otomatik web servisi, (C) PC'ye uzaktan erişim. **A seçildi.** 2026-11-24: yerel git reposu kuruldu (main, ilk commit 49a9d74, ~27 MB; frames/.remotion/mp4/ses-deneme .gitignore'da). 2026-11-24: GitHub'a gönderildi → https://github.com/ahmetr46/cizgi-shorts (commit yazarı ahmetr46 <kingby30@gmail.com>). `bulut-kurulum.sh` + SessionStart hook + `teslim/` klasörü eklendi. Sıradaki: kullanıcı claude.ai/code'da repoyu bağlayıp (ağ erişimi: Full) ilk bulut oturumunu açacak, kurulum ve kısa bir test yapılacak.
 
 ## 10 fikir (özet)
 1. Galata'dan uçan adam, padişah sürgün etti (rivayet)
