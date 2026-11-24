@@ -14,6 +14,6 @@ Seslendirmeli dikey çizgi film Short'ları üretme projesi. Video üretimi içi
 
 ## Bulutta çalışma (claude.ai/code)
 - Kurulum `bulut-kurulum.sh` ile otomatik (SessionStart hook, sadece `CLAUDE_CODE_REMOTE=true` iken). Kurulum başarısızsa elle: `bash bulut-kurulum.sh --force`.
-- Bulutta Python `python3`; Chatterbox yok → seslendirme **edge-tts en-GB-RyanNeural** (`python3 -m edge_tts --voice en-GB-RyanNeural --text "..." --write-media work/voice.mp3`).
+- Bulutta Python `python3`; Chatterbox yok → seslendirme **edge-tts en-GB-RyanNeural** (`python3 -m edge_tts --proxy "$HTTPS_PROXY" --voice en-GB-RyanNeural --text "..." --write-media work/voice.mp3`).
 - Bulutta GPU yok: render kare başına birkaç saniye sürebilir. Önce düşük çözünürlüklü önizleme / qa_sheet ile kontrol et, sonra tam render.
 - Bitmiş MP4'ü `teslim/<proje>.mp4` olarak kopyala, commit'le ve gönder (push) — kullanıcı GitHub'dan indirir. Ara dosyaları (frames, .remotion) gönderme.

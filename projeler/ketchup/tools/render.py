@@ -23,6 +23,8 @@ def find_chrome():
     for p in [r"C:\Program Files\Google\Chrome\Application\chrome.exe", r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe",
               "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"]:
         if os.path.exists(p): return p
+    import glob  # claude.ai bulut konteynerinde hazır Chromium
+    for p in sorted(glob.glob("/opt/pw-browsers/chromium-*/chrome-linux*/chrome"), reverse=True): return p
     return None  # Playwright'ın kendi Chromium'u
 
 def parse_list(s, n):

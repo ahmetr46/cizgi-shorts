@@ -1,6 +1,6 @@
 # Proje Durumu — cizgi-short
 
-> Son güncelleme: 2026-11-24
+> Son güncelleme: 2026-11-24 (bulut testi)
 > Bu dosya her adımda güncellenir. Yeni oturumda Claude önce bunu okur.
 
 ## Hedef
@@ -21,11 +21,16 @@ Dil: **İngilizce** (kullanıcı İngilizce üretim istedi).
 - [x] 2026-11-23: **Video 1 bitti** → `projeler/ketchup/out/Ketchup_Was_Medicine.mp4` (33,1 sn, 1080x1920, -14 LUFS, donma/siyah kare yok)
   - Proje: `projeler/ketchup/` (story.js, sound.json, work/PLAN.md, out/qa_sheet.jpg). 12 çekim: eczane → sokak → gazete → satıcı → hap kutusu → rakip tezgâhlar → hapın içi → laxative → 1850 → modern patates
   - Bilgi doğrulandı (web): Bennett 1834 iddiası, tarifler, hap furyası, müshil skandalı, ~1850 çöküş
-- [ ] **Sıradaki:** claude.ai/code bulut denemesi (bkz. Açık sorular 2); ayrıca kullanıcı videoyu izleyip geri bildirim verecek (çekim/altyazı/müzik değişikliği) → sonra listeden sıradaki fikir
+- [x] 2026-11-24: **İlk bulut (claude.ai/code) testi yapıldı.**
+  - Kurulum: Python paketleri tamam; `playwright install chromium` ağ engeli (cdn.playwright.dev) yüzünden başarısız ama gerek yok → konteynerde hazır Chromium (`/opt/pw-browsers`) var; `render.py` artık onu kendisi buluyor.
+  - edge-tts ilk denemede engellendi → yeni kişisel bulut ortamı **`cizgi-shorts`** oluşturuldu (izinli: speech.platform.bing.com). edge-tts'e `--proxy "$HTTPS_PROXY"` vermek gerekiyor (CLAUDE.md güncellendi).
+  - Test: `teslim/test_ses.mp3` (Ryan, 2,93 sn) + `teslim/test.mp4` (ketçap 0–89. kare, 1080x1920, 3 sn). Render **~2,3 sn/kare** (CPU/SwiftShader, 4 çekirdek) → 33 sn'lik video (~1000 kare) ≈ 38–40 dk.
+  - Not: test videosundaki altyazı orijinal senaryodan (test sesiyle eşleşmiyor), sadece motor testi.
+- [ ] **Sıradaki:** kullanıcı test MP4'ü indirip bakacak; sonra bulutta yeni senaryodan tam video denemesi (bkz. Açık sorular 2); ayrıca kullanıcı videoyu izleyip geri bildirim verecek (çekim/altyazı/müzik değişikliği) → sonra listeden sıradaki fikir
 
 ## Açık sorular (kullanıcıya)
 1. (yok — ses seçildi)
-2. 2026-11-24: Kullanıcı "yayına alıp her yerden sadece senaryo girerek video üretme" sordu. Seçenekler sunuldu: (A) claude.ai/code + GitHub repo, (B) Claude API'li otomatik web servisi, (C) PC'ye uzaktan erişim. **A seçildi.** 2026-11-24: yerel git reposu kuruldu (main, ilk commit 49a9d74, ~27 MB; frames/.remotion/mp4/ses-deneme .gitignore'da). 2026-11-24: GitHub'a gönderildi → https://github.com/ahmetr46/cizgi-shorts (commit yazarı ahmetr46 <kingby30@gmail.com>). `bulut-kurulum.sh` + SessionStart hook + `teslim/` klasörü eklendi. 2026-11-24: kullanıcı Claude'u GitHub'a bağladı. Sıradaki: claude.ai/code'da repoyu seçip (ağ erişimi: Full) ilk bulut oturumunu açacak, kurulum ve kısa bir test yapılacak.
+2. 2026-11-24: Kullanıcı "yayına alıp her yerden sadece senaryo girerek video üretme" sordu. Seçenekler sunuldu: (A) claude.ai/code + GitHub repo, (B) Claude API'li otomatik web servisi, (C) PC'ye uzaktan erişim. **A seçildi.** 2026-11-24: yerel git reposu kuruldu (main, ilk commit 49a9d74, ~27 MB; frames/.remotion/mp4/ses-deneme .gitignore'da). 2026-11-24: GitHub'a gönderildi → https://github.com/ahmetr46/cizgi-shorts (commit yazarı ahmetr46 <kingby30@gmail.com>). `bulut-kurulum.sh` + SessionStart hook + `teslim/` klasörü eklendi. 2026-11-24: kullanıcı Claude'u GitHub'a bağladı. 2026-11-24: ilk bulut oturumu açıldı, test başarılı (yukarı bak). Yeni oturumlarda **`cizgi-shorts`** ortamını seç.
 
 ## 10 fikir (özet)
 1. Galata'dan uçan adam, padişah sürgün etti (rivayet)
