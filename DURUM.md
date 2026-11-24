@@ -1,6 +1,6 @@
 # Proje Durumu — cizgi-short
 
-> Son güncelleme: 2026-11-24 (video 2: tavuk)
+> Son güncelleme: 2026-11-24 (bulut: tavuk videosu · yerel: Japonya videosu)
 > Bu dosya her adımda güncellenir. Yeni oturumda Claude önce bunu okur.
 
 ## Hedef
@@ -35,6 +35,7 @@ Dil: **İngilizce** (kullanıcı İngilizce üretim istedi).
   - 21 çekim (`work/PLAN.md`); tavuk/civciv/yumurta/kümes 3D primitiflerle kodlandı; `engine/cast.js`'e hen/egg/basket/bowl el eşyaları eklendi (sadece bu projede).
   - Önizleme kullanıcıya gönderildi; ses miksi tamam (mischief 108 bpm, -16 dB). Tam render bulutta başladı (~2,3 sn/kare, ~1 saat).
   - Bitince: `finish.py` → `teslim/chicken.mp4` → main'e push → indirme linki.
+- [x] 2026-11-24: **Japonya videosu bitti (yerel)** → `projeler/japan/out/Japan_You_Cant_Be_Fired.mp4` (70,4 sn, -14 LUFS, donma/siyah yok). Kullanıcı izleyip geri bildirim verecek. → `projeler/japan/` — kullanıcının İngilizce senaryosu (Japonya'da kovulamama / oidashi-beya / istifa ajansı). Ses Ryan, boşluklar 0,3 sn → `work/voice.wav` 70,6 sn. 26 çekim (`work/PLAN.md`). Tek metin değişikliği: "oidashi" → "oidashi beya", rakamlar yazıyla. Bilgi doğrulandı: İş Sözleşmesi Kanunu md.16; Momuri çalışanı Kasım 2024'te başka ajansla istifa etti. 
 - [ ] **Sıradaki:** kullanıcı İngilizce senaryo gönderecek → video üret → `teslim/` → main; sonra bulutta yeni senaryodan tam video denemesi (bkz. Açık sorular 2); ayrıca kullanıcı videoyu izleyip geri bildirim verecek (çekim/altyazı/müzik değişikliği) → sonra listeden sıradaki fikir
 
 ## Açık sorular (kullanıcıya)
