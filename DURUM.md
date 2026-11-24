@@ -28,7 +28,8 @@ Dil: **İngilizce** (kullanıcı İngilizce üretim istedi).
   - Not: test videosundaki altyazı orijinal senaryodan (test sesiyle eşleşmiyor), sadece motor testi.
   - 2026-11-24: Altyazı zamanlaması (faster-whisper `small`) da bulutta test edildi: Hugging Face adresleri `cizgi-shorts` ortamına eklendi, `av==15.1.0` kurulum betiğine eklendi, `bulut-kurulum.sh` hazır Chromium varsa indirmeyi atlıyor. Kurulum baştan sona hatasız.
   - Kullanıcı sordu: "İngilizce senaryolarımla video üreteceksin, doğru mu?" → Evet: kullanıcı İngilizce senaryo verir → Ryan sesi → altyazı → render → `teslim/<proje>.mp4`.
-- [ ] **Sıradaki:** kullanıcı test MP4'ü indirip bakacak; sonra bulutta yeni senaryodan tam video denemesi (bkz. Açık sorular 2); ayrıca kullanıcı videoyu izleyip geri bildirim verecek (çekim/altyazı/müzik değişikliği) → sonra listeden sıradaki fikir
+  - 2026-11-24: Bulut düzeltmeleri için PR açıldı: https://github.com/ahmetr46/cizgi-shorts/pull/1 — kullanıcı GitHub'da "Merge" edecek (yeni oturumlar main'den başladığı için gerekli).
+- [ ] **Sıradaki:** PR #1 merge; kullanıcı test MP4'ü indirip bakacak; sonra bulutta yeni senaryodan tam video denemesi (bkz. Açık sorular 2); ayrıca kullanıcı videoyu izleyip geri bildirim verecek (çekim/altyazı/müzik değişikliği) → sonra listeden sıradaki fikir
 
 ## Açık sorular (kullanıcıya)
 1. (yok — ses seçildi)
