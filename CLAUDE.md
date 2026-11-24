@@ -15,7 +15,7 @@ Seslendirmeli dikey çizgi film Short'ları üretme projesi. Video üretimi içi
 ## Bulutta çalışma (claude.ai/code)
 - Kurulum `bulut-kurulum.sh` ile otomatik (SessionStart hook, sadece `CLAUDE_CODE_REMOTE=true` iken). Kurulum başarısızsa elle: `bash bulut-kurulum.sh --force`.
 - Bulutta Python `python3`; Chatterbox yok → seslendirme **edge-tts en-GB-RyanNeural** (`python3 -m edge_tts --proxy "$HTTPS_PROXY" --voice en-GB-RyanNeural --text "..." --write-media work/voice.mp3`).
-- Bulutta GPU yok: render kare başına birkaç saniye sürebilir. Önce düşük çözünürlüklü önizleme / qa_sheet ile kontrol et, sonra tam render.
+- Bulutta GPU yok: render kare başına ~2,3 sn. **Tam render'ı 3 paralel işçiyle al** (kareleri 3 aralığa böl, her biri `python3 tools/render.py . frames A-B --resume`, aynı anda arka planda) → ~1,5 sn/kare etkin. Önce düşük çözünürlüklü önizleme / qa_sheet ile kontrol et, sonra tam render.
 - Bitmiş MP4'ü `teslim/<proje>.mp4` olarak kopyala, commit'le ve gönder (push) — kullanıcı GitHub'dan indirir. Ara dosyaları (frames, .remotion) gönderme.
 - **Dal/PR kullanma — her şeyi doğrudan `main`'e commit'le ve gönder** (kullanıcının kalıcı izni, 2026-11-24). Oturum başka bir `claude/...` dalında başlasa bile işini `main`'e gönder: `git fetch origin main && git merge --no-edit origin/main` (gerekirse), sonra `git push origin HEAD:main`. PR açma. Proje tamamlandı; kullanıcı sadece senaryo verip video istiyor.
 - Bitince kullanıcıya **doğrudan indirme linkini** ver: `https://github.com/ahmetr46/cizgi-shorts/raw/main/teslim/<dosya>.mp4`.
