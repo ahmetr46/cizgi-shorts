@@ -1,0 +1,13 @@
+# Render ara çıktıları (yeniden üretilebilir, çok büyük)
+projeler/*/frames/
+projeler/*/stills/
+.remotion/
+# Bitmiş videolar ve ses denemeleri (büyük; ayrı indirilir)
+*.mp4
+ses-deneme/
+# Kişisel oturum kaydı
+.claude/oturum-gecmisi.md
+.claude/settings.local.json
+# Python
+__pycache__/
+*.pyc
