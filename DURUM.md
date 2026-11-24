@@ -1,6 +1,6 @@
 # Proje Durumu — cizgi-short
 
-> Son güncelleme: 2026-11-24
+> Son güncelleme: 2026-11-24 (bulut oturumu)
 > Bu dosya her adımda güncellenir. Yeni oturumda Claude önce bunu okur.
 
 ## Hedef
@@ -24,6 +24,7 @@ Dil: **İngilizce** (kullanıcı İngilizce üretim istedi).
 - [ ] **Sıradaki:** claude.ai/code bulut denemesi (bkz. Açık sorular 2); ayrıca kullanıcı videoyu izleyip geri bildirim verecek (çekim/altyazı/müzik değişikliği) → sonra listeden sıradaki fikir
 
 ## Açık sorular (kullanıcıya)
+0. 2026-11-24 (ilk bulut oturumu): Kullanıcı ücretsiz Türkçe ses seçeneklerini sordu → edge-tts (Emel/Ahmet), Piper, Coqui XTTS-v2, Chatterbox Multilingual, MMS-TTS, gTTS anlatıldı. **Bulut ortamında edge-tts sunucusu (speech.platform.bing.com) ağ politikası nedeniyle engelli (403)** → bulutta seslendirme için ortam ağ izni gerekli. Kullanıcı hangi sesle örnek istediğini söyleyecek.
 1. (yok — ses seçildi)
 2. 2026-11-24: Kullanıcı "yayına alıp her yerden sadece senaryo girerek video üretme" sordu. Seçenekler sunuldu: (A) claude.ai/code + GitHub repo, (B) Claude API'li otomatik web servisi, (C) PC'ye uzaktan erişim. **A seçildi.** 2026-11-24: yerel git reposu kuruldu (main, ilk commit 49a9d74, ~27 MB; frames/.remotion/mp4/ses-deneme .gitignore'da). 2026-11-24: GitHub'a gönderildi → https://github.com/ahmetr46/cizgi-shorts (commit yazarı ahmetr46 <kingby30@gmail.com>). `bulut-kurulum.sh` + SessionStart hook + `teslim/` klasörü eklendi. 2026-11-24: kullanıcı Claude'u GitHub'a bağladı. Sıradaki: claude.ai/code'da repoyu seçip (ağ erişimi: Full) ilk bulut oturumunu açacak, kurulum ve kısa bir test yapılacak.
 
